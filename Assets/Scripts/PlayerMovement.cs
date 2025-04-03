@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private Transform groundCheck;
     
+    [SerializeField] private TakeDamage takeDamage;
+    
     private Rigidbody rb;
     private float currentSpeed = 0f;
     private float acceleration;
@@ -26,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         bool isGorunded = Physics.Linecast(transform.position, groundCheck.position, groundLayer);
-        if (isGorunded)
+        if (isGorunded && !takeDamage.isHurt)
         {
             if (Input.GetKey(leftInput) && transform.eulerAngles.y < 269)
             {
@@ -40,6 +42,11 @@ public class PlayerMovement : MonoBehaviour
     }
     private void FixedUpdate()
     {
+     
+        if (takeDamage.isHurt)
+        {
+            return;
+        }
         float angle = Mathf.Abs(180 - transform.eulerAngles.y);
         acceleration = Remap(0, 90, maxAcceleration, minAcceleration, angle);
         currentSpeed += Time.fixedDeltaTime * acceleration;
@@ -48,6 +55,7 @@ public class PlayerMovement : MonoBehaviour
         velocity.y = rb.velocity.y;
         rb.velocity = velocity;
         anim.SetFloat ("playerSpeed", currentSpeed);
+        
     }
     private float Remap(float oldMin, float oldMax, float newMin, float newMax, float oldValue)
     {
