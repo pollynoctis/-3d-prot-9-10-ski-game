@@ -461,8 +461,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f7640a299386154c95a852789eb1396, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leaderboards: {fileID: 0}
-  penaltyTime: 1
+  leaderboards: {fileID: 2109101063}
+  penaltyTime: 5
 --- !u!114 &283200133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5821,6 +5821,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3885e24a9f2b90445bdb91c139181248, type: 3}
   m_PrefabInstance: {fileID: 1799375319}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2109101062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2109101064}
+  - component: {fileID: 2109101063}
+  m_Layer: 0
+  m_Name: LeaderBoards
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2109101063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109101062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614cdc6a0d2ea5489415050dbcf79b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bestTimes: []
+--- !u!4 &2109101064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109101062}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 166.73773, y: -44.020607, z: -87.46129}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2898302482355707217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5895,6 +5940,7 @@ SceneRoots:
   - {fileID: 1695706807}
   - {fileID: 529677981}
   - {fileID: 283200134}
+  - {fileID: 2109101064}
   - {fileID: 1847592784}
   - {fileID: 1578644440}
   - {fileID: 2030496500}
