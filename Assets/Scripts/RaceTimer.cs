@@ -23,9 +23,7 @@ public class RaceTimer : MonoBehaviour
         GameManager.raceStart -= StartRaceTimer;
         GameManager.raceFinish -= StopRaceTimer;
         GameManager.racePenalty -= RacePenalty;
-
     }
-
     private void StartRaceTimer()
     {
         raceTime = 0f;

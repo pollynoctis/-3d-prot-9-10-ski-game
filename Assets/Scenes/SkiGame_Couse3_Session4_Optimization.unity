@@ -517,6 +517,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!1 &74599497
 GameObject:
   m_ObjectHideFlags: 0
@@ -757,6 +758,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!1001 &84455274
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -945,6 +947,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!1001 &143469889
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1409,6 +1412,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!1001 &183665295
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1594,6 +1598,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!1001 &211152268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1782,6 +1787,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!1001 &212067173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2125,6 +2131,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!4 &318052885 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8915367573661269101, guid: 129aca8009ebf6946acb6ec0c5398c72, type: 3}
@@ -3627,6 +3634,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!1 &711482757
 GameObject:
   m_ObjectHideFlags: 0
@@ -4775,6 +4783,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!1 &1006319926 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3886003235171834601, guid: 27f9c05a0d4f0e14a856ed8ecbd67035, type: 3}
@@ -4812,6 +4821,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!4 &1041974850 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9117953069100586070, guid: 3d3a741bcdb7b8c4a84f8beb3ae4d7e9, type: 3}
@@ -5088,6 +5098,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!4 &1227252721 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4128514016198210737, guid: de8ae90e1e1c42d4d839d1022293c09c, type: 3}
@@ -5449,6 +5460,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!1 &1395754245
 GameObject:
   m_ObjectHideFlags: 0
@@ -6083,6 +6095,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!1001 &1483871561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6348,6 +6361,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!1001 &1537215346
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6533,6 +6547,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!1001 &1549702886
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6903,6 +6918,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!1001 &1564186939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7088,6 +7104,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!1001 &1565023936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7273,6 +7290,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!1001 &1566103380
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7458,6 +7476,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!43 &1569317413
 Mesh:
   m_ObjectHideFlags: 0
@@ -7978,6 +7997,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!1001 &1685150983
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8166,6 +8186,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!1 &1688951602
 GameObject:
   m_ObjectHideFlags: 3
@@ -8753,6 +8774,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!1001 &1978725465
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9007,6 +9029,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!1 &2045664670
 GameObject:
   m_ObjectHideFlags: 0
@@ -9597,6 +9620,7 @@ MonoBehaviour:
   snowBall: {fileID: 4696559925989147744, guid: d103b39dceec7ef41a952c1d2de1c92e, type: 3}
   throwDistance: 50
   throwSpeed: 1250
+  throwHightOffset: {x: 0, y: 0.33, z: 0}
 --- !u!1001 &2121532465
 PrefabInstance:
   m_ObjectHideFlags: 0
